@@ -6,7 +6,7 @@ describe 'suite de teste' do
         v1 = 2
         v2 = 3
         resultado = v1 + v2
-        valor_da_tela = "5"
+        valor_da_tela = "54"
         valor_numerico = valor_da_tela.gsub("R$", "") # substring
         expect(resultado).to eql valor_numerico.to_i # converte para inteiro
         
